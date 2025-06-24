@@ -1,0 +1,214 @@
+
+
+     /* ====== Global Styles ====== */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+
+  h1, h2 {
+    margin-top: 20px;
+  }
+
+  /* ====== Navbar ====== */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+  overflow: hidden;
+  display: flex;
+  
+   justify-content: flex-end; /* ⬅️ Ini yang penting */
+}
+
+nav li {
+  margin-left: 10px; /* biar ada jarak antar menu */
+}
+
+nav a {
+  display: block;
+  text-align: center;
+  padding: 14px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  background-color: #555;
+}
+
+
+  /* ====== Profile Info ====== */
+  
+.profile-container {
+  display: flex;
+  align-items: flex-start;
+  
+  gap: 30px;
+  margin-top: 30px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  max-width: 100%;
+  
+}
+
+/* Kolom Foto */
+.profile-photo img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #aaa;
+}
+
+/* Kolom Nama & Jabatan */
+.profile-name {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-width: 200px;
+}
+
+.profile-name h2 {
+  margin: 0;
+}
+
+.profile-name p {
+  margin: 5px 0;
+  font-style: italic;
+}
+
+/* Kolom Informasi Detail */
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1;
+}
+
+.info-block {
+  display: flex;
+  gap: 8px;
+}
+
+.label {
+  font-weight: bold;
+  min-width: 110px;
+}
+
+
+  /* ====== Form Styles ====== */
+  #profile-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 600px;
+    margin: 0 auto; /* Pusatkan form */
+    padding: 20px;
+    background-color: #f9f9f9;
+  border: 1px solid #ccc;
+    border-radius: 10px;
+    }
+    
+  form {
+    flex: 1;
+    max-width: 100%;
+  }
+
+  form div {
+    margin-bottom: 15px;
+  }
+
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+
+  button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%; /* Lebar penuh */
+  }
+
+  button:hover {
+    background-color: #555;
+  }
+
+/* ===== Responsive Layout ===== */
+@media (max-width: 768px) {
+  .profile-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .profile-name, .profile-info {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .profile-info {
+    width: 100%;
+  }
+
+  .info-block {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .label {
+    min-width: auto;
+  }
+
+ nav ul {
+    flex-direction: column;
+    align-items: flex-start; /* ubah dari flex-end */
+    padding-left: 20px; /* beri jarak dari kiri */
+  }
+
+  nav li {
+    margin: 5px 0; /* beri spasi vertikal antar item */
+  }
+
+  nav a {
+    width: 100%;
+    text-align: left; /* sejajarkan ke kiri */
+    padding: 12px 20px; /* spasi atas-bawah dan kiri-kanan */
+  }
+
+  #profile-form {
+    padding: 15px;
+  }
+
+}
+
+@media (max-width: 480px) {
+  .profile-photo img {
+    width: 100px;
+    height: 100px;
+  }
+
+
+  nav a {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
+
+            /*css priority, inline text, id, class*/

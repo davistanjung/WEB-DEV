@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Landing Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="#">My Landing Page</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#blog">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#team">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+<!--Home -->
+    <header id="home" class="bg-primary text-white py-3 mb-5 d-flex align-items-center justify-content-center flex-column text-center">
+  <section class="container-fluid bg-gradient bg-primary text-white py-3 d-flex align-items-center">
+    <div class="container">
+      <div class="row align-items-center">
+        
+        <!-- Kolom Teks -->
+        <div class="col-md-6 text-center text-md-start mb-4 mb-md-0">
+          <h1 class="display-4 fw-bold">Welcome to My Landing Page</h1>
+          <p class="lead">This is a simple landing page built with Bootstrap.</p>
+          <p class="lead">Discover our services and get in touch with us.</p>
+          <a href="#about" class="btn btn-light fw-bold rounded-pill mt-4">More Info</a>
+        </div>
+
+        <!-- Kolom Gambar -->
+        <div class="col-md-6 text-center">
+          <img src="images/GedungSate1.jpg" alt="Andrew Photo" class="img-fluid rounded">
+        </div>
+
+      </div>
+    </div>
+  </section>
+</header>
+
+    
+<!-- About -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="text-center">About Us</h2>
+            <p class="text-center">We are a team of professionals dedicated to helping you achieve your goals.</p>
+            <p class="text-center">Our mission is to provide high-quality services and solutions that meet the needs of our clients.</p>
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>Our Vision</h5>
+                    <p>To be a leading provider of innovative solutions that empower individuals and businesses.</p>
+                </div>
+                <div class="col-md-6">
+                    <h5>Our Mission</h5>
+                    <p>To deliver exceptional value through our services and to build lasting relationships with our clients.</p>
+                </div>
+        </div>
+    </section>
+<!-- Portofolio -->
+    <section id="portfolio" class="bg-dark bg-gradient text-white py-5">
+        <div class="container">
+            <h2 class="text-center">Our Portfolio</h2>
+            <p class="text-center">See what people from all around the world are saying about our website.</p>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/1.avif" class="card-img-top" alt="Portfolio Item">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 1</h5>
+                            <p class="card-text">Description of project 1.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            <p  class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/2.avif" class="card-img-top" alt="Portfolio Item">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 2</h5>
+                            <p class="card-text">Description of project 2.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            <p  class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/3.avif" class="card-img-top" alt="Portfolio Item">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 3</h5>
+                            <p class="card-text">Description of project 3.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            <p  class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Blog -->
+    <section id="blog" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Our Blog</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/1.avif" class="card-img-top" alt="Blog Post 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Blog Post 1</h5> 
+                            <p class="card-text">Summary of blog post 1.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/2.avif" class="card-img-top" alt="Blog Post 2">
+                        <div class="card-body">
+                            <h5 class="card-title   ">Blog Post 2</h5>
+                            <p class="card-text">Summary of blog post 2.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/3.avif" class="card-img-top" alt="Blog Post 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Blog Post 3</h5>
+                            <p class="card-text">Summary of blog post 3.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+
+            <p class="text-center">Latest news and updates from our team.</p>
+        </div>
+    </section>
+<!-- Team -->
+    <section id="team" class="bg-light py-5 shadow-sm">
+        <div class="container">
+            <h2 class="text-center">Meet Our Team</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Team Member 1</h5>
+                    <p>Role and description.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Team Member 2</h5>
+                    <p>Role and description.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Team Member 3</h5>
+                    <p>Role and description.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Contact -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Contact Us</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" rows="3" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+<!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2023 My Landing Page. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
